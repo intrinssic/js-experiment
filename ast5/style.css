@@ -1,0 +1,24 @@
+
+
+#box{
+    background: orange;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+.ballr{
+    background: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.ballb{
+    background: blue;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    position: absolute;
+}
