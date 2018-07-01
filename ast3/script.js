@@ -5,9 +5,9 @@ var slideNum = 1;
         displaySlides(slideNum += n);  
     }  
     function currentSlide(n) {  
-        displaySlides(slideNum = n);  
+        displaySlides(slideNum = n);
     }  
-    function displaySlides(n) {  
+    function displaySlides(n) { 
         var i;  
         var slides = document.getElementsByClassName("slide");  
         if (n > slides.length) { slideNum = 1 }  
@@ -16,4 +16,4 @@ var slideNum = 1;
             slides[i].style.display = "none";  
         }  
         slides[slideNum - 1].style.display = "block";  
-    }  
+    }
