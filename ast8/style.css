@@ -1,0 +1,55 @@
+/* shooting game */
+.mainContainer{
+    position:relative;
+    margin:0 auto;
+    width:400px;
+}
+
+.gameContainer
+{
+    position:absolute;
+    width:400px;
+    height:600px;
+    overflow: hidden;
+    background: url("clouds.jpg");
+    background-repeat:repeat-y;
+}
+
+.enemy{
+    position:absolute;
+    width:100px;
+    height:100px;
+    background-image:url("enemy.png");
+}
+
+.player {
+    position:absolute; 
+    width:100px;
+    height:100px;
+    background-image:url("player.png");
+}
+
+
+.score {
+    position:absolute;
+    width: auto;
+    height: auto;
+    background: white;
+    font: oblique bolder monospace;
+    font-size: 35px;
+    color: black;
+    left: 20px;
+    top:20px;
+    border-color: black;
+    border-radius: 5px;
+
+}
+
+.bullets{
+position:absolute;
+width:10px;
+height:10px;
+background:black;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+}
